@@ -10,7 +10,7 @@ public class WelcomeController {
 	
 	@GetMapping("welcome")
 	public String greeting() {
-		
+		System.out.println("Welcome to docker tutorial");
 		return "Welcome to docker tutorial";
 	}
 
